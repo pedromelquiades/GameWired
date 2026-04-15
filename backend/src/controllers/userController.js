@@ -60,6 +60,7 @@ const userController = {
         }
     },
 
+
     async login(req, res) {
         try {
             const { email, senha } = req.body
